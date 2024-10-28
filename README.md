@@ -1,15 +1,18 @@
 # ML_Calculator
-### Project Summary: Linear Optimization Web Calculator
+## Project Summary: Linear Optimization Web Calculator
 
-#### Project Overview
+
+### Project Overview
 The **Linear Optimization Web Calculator** is a full-stack web application designed to perform linear optimization calculations, particularly for machine learning and data analysis purposes. The main goal of this project is to provide a user-friendly interface for users to input optimization problems and get real-time solutions. The application focuses on solving linear programming problems using techniques like the Simplex algorithm and aims to facilitate advanced mathematical and data-driven calculations.
 
-#### Project Objectives
+
+### Project Objectives
 - **Efficient Problem Solving**: Provide fast and reliable solutions to linear optimization problems.
 - **User-Friendly Interface**: Design an intuitive front-end interface for easy interaction with the calculator.
 - **Scalable Architecture**: Utilize modern frameworks and technologies to ensure the app is scalable and maintainable.
 - **Integration with Machine Learning**: Allow the use of linear optimization as a tool in machine learning applications, improving computational efficiency.
 - **Deployment and Accessibility**: Make the application publicly accessible through a live URL for wide usability.
+
 
 ### System Design and Tech Stack
 
@@ -44,12 +47,15 @@ The **Linear Optimization Web Calculator** is a full-stack web application desig
 - **Version Control**: **GitHub** – Used for version control, collaboration, and continuous integration with the deployment platforms.
 - **IDE**: **Visual Studio Code (VSCode)** – Selected for its powerful development environment, extensions, and debugging tools.
 
+
 ### Key Features
+
 - **Linear Optimization**: Supports linear programming using Simplex and other optimization algorithms.
 - **Real-Time Calculation**: Provides instant results to user inputs, enhancing user experience.
 - **Authentication**: User authentication via Firebase to secure user data and restrict access to personalized features.
 - **Error Handling**: Robust error handling for user inputs, ensuring that the system provides useful feedback.
 - **Responsive Design**: Built with Bootstrap and Sass to ensure the application works seamlessly on all devices.
+
 
 ### Significance of the Project
 
@@ -59,6 +65,24 @@ The **Linear Optimization Web Calculator** is designed to be a valuable tool for
 - **Data Science and Finance**: Applying optimization techniques to maximize efficiency, minimize costs, and improve decision-making.
 
 The project is structured to be scalable, making it easy to add more complex algorithms and features in the future, such as integrating advanced machine learning models or supporting mixed-integer programming.
+
+### Set-Up
+1. Setting Up the Backend
+   1. npm install
+   2. Running backend: npm run dev
+
+2. Setting Up the Frontend
+   1. npm install
+3. Setting Up Tailwind CSS
+   1. npm install -D tailwindcss postcss autoprefixer
+   2. npx tailwindcss init
+   3. Running frontend: npm run dev
+4. Backend 
+   1. touch .env
+5. To Github
+   1. git add .
+   2. git commit -m "Initial setup"
+   3. git push origin main
 
 ### Conclusion
 The Linear Optimization Web Calculator is a well-rounded project that leverages modern technologies to create a high-performance, user-centric application. It demonstrates the power of using a modular tech stack with Vue.js, GraphQL, and Node.js to build a reliable, scalable, and accessible solution for linear optimization problems. The choice of tools and frameworks ensures that the application is not only performant but also future-proof, with easy integration of more advanced features down the line.
